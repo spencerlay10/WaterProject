@@ -34,9 +34,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowReactAppBlah");
-
 app.UseHttpsRedirection();
+
+app.UseCors("AllowReactAppBlah");
 
 app.UseAuthorization();
 
