@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Project } from "../types/Project";
-import CookieConsent from "react-cookie-consent";
 import { useNavigate } from "react-router-dom";
 import { fetchProjects } from "../api/ProjectsAPI";
 import Pagination from "./Pagination";
