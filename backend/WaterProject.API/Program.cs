@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactAppBlah",
         policy =>
         {
-            policy.WithOrigins("http://localhost:3000")
+            policy.WithOrigins("http://localhost:3000", "https://thankful-bay-0bcb0ff1e.6.azurestaticapps.net/")
                 .AllowCredentials()
                 .AllowAnyHeader()
                 .AllowAnyMethod();
